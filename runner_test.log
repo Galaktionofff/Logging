@@ -1,1 +1,12 @@
-
+WARNING | Неверный тип данных для объекта Runner
+Traceback (most recent call last):
+  File "/Users/nikitagalaktionov/PycharmProjects/Urban/Urban_Homeworks/module_12(Unit-tests)/T and R Tests.py", line 31, in test_run
+    runner = Runner('Stepan', '121,', 21)
+TypeError: __init__() takes from 2 to 3 positional arguments but 4 were given
+WARNING | Неверная скорость для Runner
+Traceback (most recent call last):
+  File "/Users/nikitagalaktionov/PycharmProjects/Urban/Urban_Homeworks/module_12(Unit-tests)/T and R Tests.py", line 18, in test_walk
+    runner = Runner('Nikita', -1)
+  File "/Users/nikitagalaktionov/PycharmProjects/Urban/Urban_Homeworks/module_12(Unit-tests)/Ex.py", line 11, in __init__
+    raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
+ValueError: Скорость не может быть отрицательной, сейчас -1
